@@ -1,6 +1,7 @@
 {
     "docs"      : {
-        "关于我的博客": "README.md"
+        "关于我的博客": "README.md",
+        "技术文章": "posts/tech"
     },
     "template"    : "pithiness",
     "perpage"   : 10,
