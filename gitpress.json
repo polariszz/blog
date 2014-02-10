@@ -1,1 +1,34 @@
-{}
+{
+    "docs"      : {
+        "关于我的博客" : "README.md",
+        "技术文章": "posts/tech",
+        "nodejs": "posts/nodejs",
+        "其他": "posts/others",
+        "生活随笔": "posts/life"
+    },
+    "template"    : "default",
+    "domain_alias" :  ["blog.polariszz.org", "www.polariszz.org", "polariszz.org"],
+    "perpage"   : 10,
+    "order"  : "number",
+    "types"     : {
+        "\\.(md||markdown)$"   : "markdown",
+        "\\.(js||css||json)$"  : "code",
+        "\\.html?$"            : "html",
+        ".*"                   : "text"
+    },
+    "title"  : "Minglei's Blog",
+    "description" : "学习是一种习惯..",
+    "comment"  : {"type":"disqus", "short_name":"gitpress"},
+    "friends"  : [
+        {
+          "name"  : "github",
+          "title"  : "github",
+          "url"  : "http://github.com"
+        },
+        {
+          "name"  : "gitpress",
+          "title"  : "gitpress",
+          "url"  : "http://gitpress.org"
+        }
+    ]
+}
